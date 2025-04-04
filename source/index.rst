@@ -101,18 +101,18 @@ lint の設定
    :linenos:
 
    {
-   "scripts": {
-      "lint": "eslint --ext ts,tsx src/**/*",
-      "lint:fix": "eslint --ext ts,tsx --fix src/**/"
-   },
-   "devDependencies": {
-      "@eslint/js": "^9.23.0",
-      "@typescript-eslint/eslint-plugin": "^8.29.0",
-      "@typescript-eslint/parser": "^8.29.0",
-      "eslint": "^9.23.0",
-      "globals": "^16.0.0",
-      "typescript-eslint": "^8.29.0"
-   }
+      "scripts": {
+         "lint": "eslint --ext ts,tsx src/**/*",
+         "lint:fix": "eslint --ext ts,tsx --fix src/**/"
+      },
+      "devDependencies": {
+         "@eslint/js": "^9.23.0",
+         "@typescript-eslint/eslint-plugin": "^8.29.0",
+         "@typescript-eslint/parser": "^8.29.0",
+         "eslint": "^9.23.0",
+         "globals": "^16.0.0",
+         "typescript-eslint": "^8.29.0"
+      }
    }
 
 
