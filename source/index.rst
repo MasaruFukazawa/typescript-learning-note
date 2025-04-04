@@ -15,7 +15,7 @@ Typescript Learning Note
 node のインストール
 --------------------------------------
 
-.. code-block:: shell
+.. code-block:: bash
    :linenos:
 
    brew install nvm
@@ -26,7 +26,7 @@ node のインストール
 Typescript を使う準備
 --------------------------------------
 
-.. code-block:: shell
+.. code-block:: bash 
    :linenos:
 
    # TypeScript のインストール
