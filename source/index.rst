@@ -87,3 +87,35 @@ lint の設定
    -rw-r--r--@  1 masarufukazawa  staff  12813  4  4 23:09 tsconfig.json
 
 
+**src ディレクトリを作る**
+
+- tsコードの保存先を作る
+
+.. code-block:: bash 
+
+   $ mkdir src
+
+**package.json の編集**
+
+.. code-block:: bash 
+   :linenos:
+
+   {
+   "scripts": {
+      "lint": "eslint --ext ts,tsx src/**/*",
+      "lint:fix": "eslint --ext ts,tsx --fix src/**/"
+   },
+   "devDependencies": {
+      "@eslint/js": "^9.23.0",
+      "@typescript-eslint/eslint-plugin": "^8.29.0",
+      "@typescript-eslint/parser": "^8.29.0",
+      "eslint": "^9.23.0",
+      "globals": "^16.0.0",
+      "typescript-eslint": "^8.29.0"
+   }
+   }
+
+
+lint の実行
+--------------------------------------
+
