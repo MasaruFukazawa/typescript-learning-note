@@ -38,6 +38,14 @@ Typescript を使う準備
    # TypeScript の初期化
    tsc --init
 
+
+lint の設定
+--------------------------------------
+
+.. code-block:: bash 
+   :linenos:
+
+   # eslint のインストール
    npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
    ll 
@@ -47,3 +55,5 @@ Typescript を使う準備
    -rw-r--r--@  1 masarufukazawa  staff  59822  4  4 23:16 package-lock.json
    -rw-r--r--@  1 masarufukazawa  staff    125  4  4 23:16 package.json
    -rw-r--r--@  1 masarufukazawa  staff  12813  4  4 23:09 tsconfig.json
+
+
