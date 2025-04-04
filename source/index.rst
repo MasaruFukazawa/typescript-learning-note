@@ -45,15 +45,45 @@ lint の設定
 .. code-block:: bash 
    :linenos:
 
-   # eslint のインストール
-   npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
+   npm init @eslint/config@latest
 
-   ll 
-   drwxr-xr-x@  9 masarufukazawa  staff    288  4  4 23:16 ./
+   Need to install the following packages:
+   @eslint/create-config@1.6.0
+   Ok to proceed? (y) 
+
+
+   > npx
+   > create-config
+
+   @eslint/create-config: v1.6.0
+
+   ✔ How would you like to use ESLint? · problems
+   ✔ What type of modules does your project use? · esm
+   ✔ Which framework does your project use? · none
+   ✔ Does your project use TypeScript? · typescript
+   ✔ Where does your code run? · browser
+   The config that you've selected requires the following dependencies:
+
+   eslint, globals, @eslint/js, typescript-eslint
+   ✔ Would you like to install them now? · No / Yes
+   ✔ Which package manager do you want to use? · npm
+   ☕️Installing...
+
+   added 2 packages, changed 1 package, and audited 126 packages in 3s
+
+   36 packages are looking for funding
+   run `npm fund` for details
+
+   found 0 vulnerabilities
+
+   ll
+   total 192
+   drwxr-xr-x@ 10 masarufukazawa  staff    320  4  5 00:38 ./
    drwxr-xr-x@ 82 masarufukazawa  staff   2624  4  4 22:51 ../
-   drwxr-xr-x@ 96 masarufukazawa  staff   3072  4  4 23:16 node_modules/
-   -rw-r--r--@  1 masarufukazawa  staff  59822  4  4 23:16 package-lock.json
-   -rw-r--r--@  1 masarufukazawa  staff    125  4  4 23:16 package.json
+   -rw-r--r--@  1 masarufukazawa  staff    425  4  5 00:38 eslint.config.mjs
+   drwxr-xr-x@ 97 masarufukazawa  staff   3104  4  5 00:38 node_modules/
+   -rw-r--r--@  1 masarufukazawa  staff  59609  4  5 00:38 package-lock.json
+   -rw-r--r--@  1 masarufukazawa  staff    241  4  5 00:38 package.json
    -rw-r--r--@  1 masarufukazawa  staff  12813  4  4 23:09 tsconfig.json
 
 
