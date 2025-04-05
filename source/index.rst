@@ -119,3 +119,7 @@ lint の設定
 lint の実行
 --------------------------------------
 
+.. code-block:: bash
+   :linenos:
+
+   npm run lint
